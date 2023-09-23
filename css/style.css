@@ -1,0 +1,281 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Poppins:wght@400;500;600;700&display=swap");
+
+:root {
+  --color1: #f85a40;
+  --background-color: #008374;
+  --dark-color: #222;
+  ---white-color: #fff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  width: 1200px;
+  margin: auto;
+}
+
+.clr {
+  clear: both;
+}
+
+/* Header Starts */
+
+#header {
+  width: 100%;
+  height: 70px;
+  background-color: var(--background-color);
+}
+
+.logo {
+  float: left;
+  margin-top: 18px;
+}
+
+.logo a {
+  color: var(---white-color);
+  font-weight: 600;
+  font-size: 24px;
+}
+
+.logo span {
+  color: var(--color1);
+}
+
+.menu {
+  float: right;
+  margin-top: 25px;
+}
+
+.menu ul li {
+  display: inline;
+  padding: 0 20px;
+}
+
+.menu ul li a {
+  color: rgba(255, 255, 255, 0.7);
+  font-weight: 600;
+}
+
+.menu ul li a:hover {
+  color: var(---white-color);
+  text-decoration: underline var(--color1);
+  text-underline-offset: 10px;
+  text-decoration-thickness: 2px;
+}
+
+.menu .active {
+  color: var(---white-color);
+  text-decoration: underline var(--color1);
+  text-underline-offset: 10px;
+  text-decoration-thickness: 2px;
+}
+
+/* Header ends */
+
+/* Banner starts */
+
+#banner {
+  width: 100%;
+  height: 500px;
+  background-color: var(--background-color);
+  /* padding: 120px 0; */
+}
+
+.banner-text {
+  float: left;
+  width: 50%;
+  margin-top: 10%;
+}
+
+.banner-text h1 {
+  font-size: 45px;
+  font-weight: 800;
+  color: var(---white-color);
+  letter-spacing: 1px;
+  word-spacing: 5px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.banner-text p {
+  margin: 20px 0;
+  color: rgba(255, 255, 255, 0.7);
+  line-height: 1.6;
+  font-family: "Montserrat", sans-serif;
+}
+
+.banner-text button {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 15px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 14px 40px;
+  border-radius: 50px;
+  transition: all 0.3s;
+  color: var(---white-color);
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: rgba(0, 0, 0, 0.08) 0px 0px 15px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.banner-text button:hover {
+  border: 1px solid var(---white-color);
+  cursor: pointer;
+}
+
+.banner-img {
+  float: right;
+  width: 50%;
+  margin-top: 5%;
+}
+
+.banner-img img {
+  width: 100%;
+  height: auto;
+}
+/* banner ends */
+
+/* card strats */
+#card {
+  margin: 70px 0;
+}
+.card-container {
+  width: 1200px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 30px;
+}
+
+.card-box {
+  background-color: var(--background-color);
+  color: var(---white-color);
+  text-align: center;
+  border-radius: 7px;
+  padding: 50px;
+}
+
+.card-box h2 {
+  font-weight: 500;
+  padding-bottom: 30px;
+}
+
+.card-box i {
+  font-size: 30px;
+  padding: 20px 0;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+/* card ends */
+
+/* about starts */
+
+#about {
+  margin: 70px 0;
+}
+
+.about-head,
+.about-para {
+  text-align: center;
+}
+
+.about-head {
+  font-family: "Montserrat", sans-serif;
+  color: var(--dark-color);
+  text-decoration: underline var(--background-color);
+  text-decoration-thickness: 3px;
+  text-underline-offset: 15px;
+}
+
+.about-para {
+  margin: 45px 0;
+}
+
+.about-container {
+  width: 1200px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 50px;
+}
+
+.about-container h2 {
+  margin: 30px 0;
+}
+
+.about-container p {
+  margin: 20px 0;
+}
+
+.about-container .italic-para {
+  font-style: italic;
+}
+
+.about-container img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.about-img-2 {
+  margin-top: 30px;
+}
+
+.about-container p {
+  margin: 20px 0;
+}
+
+.about-list-item {
+  margin: 16px 0;
+}
+
+.about-list-item i {
+  color: var(--background-color);
+  margin-right: 7px;
+}
+
+.about-left,
+.about-right {
+  text-align: left;
+}
+
+/* about ends */
+
+/* client starts */
+.client {
+  margin: 70px 0;
+}
+.client-container {
+  width: 1200px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 30px;
+}
+
+.client-container img {
+  width: 100%;
+  height: auto;
+}
+
+.list-client {
+  margin: 20px 0;
+  border-bottom: 1px solid rgb(228, 228, 228);
+  padding-bottom: 20px;
+}
+
+.num {
+  color: var(--background-color);
+  font-size: 35px;
+  margin-right: 20px;
+  font-weight: 800;
+}
+
+/* client ends */

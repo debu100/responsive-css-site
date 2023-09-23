@@ -1,0 +1,108 @@
+@media (max-width: 376px) {
+  /* container */
+
+  .container {
+    width: 90%;
+  }
+
+  /* menu */
+
+  .logo {
+    float: none;
+    margin-top: 0;
+    padding-top: 10px;
+  }
+
+  .menu {
+    float: none;
+    /* display: none; */
+  }
+
+  .menu ul li {
+    padding: 0px 10px;
+  }
+
+  .menu ul li a {
+    font-weight: 400;
+  }
+
+  .menu ul li a:hover {
+    text-underline-offset: 4px;
+  }
+
+  .menu .active {
+    text-underline-offset: 4px;
+  }
+
+  /* banner */
+
+  #banner {
+    height: auto;
+  }
+
+  .banner-text {
+    float: none;
+    width: 100%;
+    margin-top: 0;
+    padding: 25% 0;
+    text-align: center;
+  }
+
+  .banner-text h1 {
+    font-size: 29px;
+  }
+
+  .banner-text p {
+    font-size: 15px;
+  }
+
+  .banner-img {
+    float: none;
+    width: 100%;
+    margin-top: 5%;
+  }
+
+  .banner-text button {
+    padding: 10px 20px;
+    margin: 15px 0;
+  }
+
+  /* cards */
+  .card-container {
+    width: 90%;
+    grid-template-columns: auto;
+  }
+
+  .card-box {
+    padding: 20px;
+  }
+
+  .card-box h2 {
+    font-size: 20px;
+  }
+
+  /* about */
+
+  .about-container {
+    width: 90%;
+    grid-template-columns: auto;
+  }
+
+  .about-container .italic-para {
+    margin-top: 0;
+  }
+
+  .about-left h2 {
+    text-align: center;
+  }
+
+  /* clients */
+  .client-container {
+    width: 90%;
+    grid-template-columns: auto;
+  }
+
+  .num {
+    font-size: 24px;
+  }
+}
